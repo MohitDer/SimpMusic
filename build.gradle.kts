@@ -10,4 +10,5 @@ plugins {
     val latestAboutLibsRelease = "10.10.0"
     id("com.mikepenz.aboutlibraries.plugin") version latestAboutLibsRelease apply false
     id("com.google.gms.google-services") version "4.4.1" apply false
+
 }

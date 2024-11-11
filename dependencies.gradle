@@ -8,6 +8,7 @@ ext.versions = [
     exoplayer           : '2.19.1'
 ]
 
+
 ext.build = [
     buildTools  : '30.0.3',
     minSdk      : 26,

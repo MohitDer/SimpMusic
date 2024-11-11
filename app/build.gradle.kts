@@ -6,7 +6,10 @@ plugins {
     id("com.google.devtools.ksp")
     id("com.mikepenz.aboutlibraries.plugin")
     id("com.google.gms.google-services")
+    id ("maven-publish")
 }
+
+
 
 android {
     namespace = "com.maxrave.simpmusic"
@@ -191,6 +194,8 @@ android {
             )
         )
     }
+
+
 }
 
 dependencies {
