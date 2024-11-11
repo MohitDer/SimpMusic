@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="@dimen/_5sdp">
+
+    <TextView
+        android:id="@+id/tv_ads"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/_3sdp"
+        android:text="Ad"
+        android:textStyle="bold"
+        android:layout_margin="@dimen/_5sdp"
+        android:textColor="@color/white"
+        android:background="@drawable/bg_ad"/>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_150sdp"
+        android:id="@+id/iv_Media_url"
+        android:scaleType="centerCrop"/>
+
+    <LinearLayout
+        android:id="@+id/ll_info"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_below="@id/iv_Media_url"
+        android:padding="@dimen/_5sdp">
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:id="@+id/iv_Icon"
+            android:scaleType="centerCrop"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="5dp">
+
+            <TextView
+                android:id="@+id/tv_title_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Ad Title text"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                android:textSize="16dp"/>
+
+            <TextView
+                android:id="@+id/tv_discrption_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Ad Discrption text"
+                android:textColor="@color/white"
+                android:layout_marginTop="@dimen/_5sdp"
+                android:textSize="15dp"/>
+
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btn_action"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/ll_info"
+        android:layout_marginTop="@dimen/_5sdp"
+        android:text="BTN TEXT"
+        android:textColor="@color/white"
+        android:backgroundTint="#3D5AFE"/>
+
+</RelativeLayout>

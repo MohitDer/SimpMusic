@@ -1,0 +1,441 @@
+<resources>
+    <string name="app_name">Pure Music</string>
+    <string name="demo_description">You can also find us with:  electronic dance music 2023 edm top electronic dance songs 2023 edm songs edm music 2023 electronic dance music best electro dance music popular edm songs top edm songs edm songs 2023 edm music top edm songs 2023 top electronic dance songs edm 2023 popular edm songs 2023 best electro dance music 2023  No matter how your day is, you can always listen to good music:  1. EDM Hits Playlist - Popular EDM Hits in 2023 -  We would like to keep you with us many years from now on! So, in the next year, you could find our playlist like this: EDM 2024 ♫ Top EDM Songs 2024</string>
+    <string name="Song_and_artist_name">Song • %1$s</string>
+    <string name="playlist_and_author">Playlist • %1$s</string>
+    <string name="album_and_artist_name">Album • %1$s</string>
+    <string name="subscribers">%1$s subscribers</string>
+    <string name="year_and_category">%1$s • %2$s</string>
+    <string name="album_length">%1$s tracks  %2$s</string>
+    <string name="view_count">%1$s views</string>
+    <string name="lyrics_provider">Lyrics provided by Musixmatch</string>
+    <string name="clear_search_history">Clear search history</string>
+    <string name="liked">Liked</string>
+    <string name="like">Like</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="download">Download</string>
+    <string name="downloaded">Downloaded</string>
+    <string name="downloading">Downloading</string>
+    <string name="preparing">Preparing</string>
+    <string name="hide">Hide</string>
+    <string name="show">Show</string>
+    <string name="na_na">NA:NA</string>
+    <string name="cache_size">%1$s MB</string>
+    <string name="favorite">Favorite</string>
+    <string name="followed">Followed</string>
+    <string name="most_played">Most Played</string>
+    <string name="Downloaded">Downloaded</string>
+    <string name="favorite_playlists">Favorite Playlists</string>
+    <string name="no_favorite_playlists">No favorite playlists</string>
+    <string name="downloaded_playlists">Downloaded Playlists</string>
+    <string name="no_playlists_downloaded">No playlists downloaded</string>
+    <string name="your_playlists">Your Local Playlists</string>
+    <string name="no_playlists_added">No playlists added</string>
+    <string name="recently_added">Recently Added</string>
+    <string name="search_for_songs_artists_albums_playlists_and_more">Search for songs, artists, albums, playlists, and more</string>
+    <string name="everything_you_need">Everything you need</string>
+    <string name="restore_failed">Restore Failed</string>
+    <string name="restore_success">Restore Success</string>
+    <string name="search">Search</string>
+    <string name="songs">Songs</string>
+    <string name="albums">Albums</string>
+    <string name="playlists">Playlists</string>
+    <string name="artists">Artists</string>
+    <string name="library">Library</string>
+    <string name="home">Home</string>
+    <string name="popular">Popular</string>
+    <string name="error">Error</string>
+    <string name="follow">Follow</string>
+    <string name="retry">Retry</string>
+    <string name="removed_download">Removed download</string>
+    <string name="share_url">Share URL</string>
+    <string name="available_online">Available online</string>
+    <string name="unavailable">Unavailable</string>
+    <string name="you">You</string>
+    <string name="good_morning">Good Morning</string>
+    <string name="good_afternoon">Good Afternoon</string>
+    <string name="good_evening">Good Evening</string>
+    <string name="good_night">Good Night</string>
+    <string name="quick_picks">Quick picks</string>
+    <string name="this_song_is_not_available">This song is not available</string>
+    <string name="in_charts">in Charts</string>
+    <string name="playlist_name_cannot_be_empty">Playlist name cannot be empty</string>
+    <string name="this_app_needs_to_access_your_notification">This app needs to access your notification</string>
+    <string name="shared">Shared</string>
+    <string name="line_synced">Line Synced</string>
+    <string name="unsynced">Unsynced</string>
+    <string name="playlist_is_empty">Playlist is empty</string>
+    <string name="option">Option</string>
+    <string name="no_description">No description</string>
+    <string name="in_search">in Search</string>
+    <string name="clear_player_cache">Clear Player Cache</string>
+    <string name="cancel">Cancel</string>
+    <string name="clear">Clear</string>
+    <string name="content_country">Content Country</string>
+    <string name="change">Change</string>
+    <string name="quality">Quality</string>
+    <string name="clear_downloaded_cache">Clear Downloaded Cache</string>
+    <string name="clear_thumbnail_cache">Clear Thumbnail Cache</string>
+    <string name="add">Add</string>
+    <string name="playlist_name">Playlist Name</string>
+    <string name="create">Create</string>
+    <string name="edit">Edit</string>
+    <string name="edit_title">Edit title</string>
+    <string name="edit_thumbnail">Edit thumbnail</string>
+    <string name="delete_playlist">Delete playlist</string>
+    <string name="add_to_a_playlist">Add to a playlist</string>
+    <string name="share">Share</string>
+    <string name="move_up">Move up</string>
+    <string name="move_down">Move down</string>
+    <string name="delete_from_queue">Delete from queue</string>
+    <string name="more">More</string>
+    <string name="singles">Singles</string>
+    <string name="related_artists">Related Artists</string>
+    <string name="about">About</string>
+    <string name="let_s_start_with_a_radio">LET\'S START WITH A RADIO</string>
+    <string name="let_s_pick_a_playlist_for_you">LET\'S PICK A PLAYLIST FOR YOU</string>
+    <string name="moods_amp_moment"><![CDATA[Moods & Moment]]></string>
+    <string name="genre">Genre</string>
+    <string name="what_is_best_choice_today">WHAT IS BEST CHOICE TODAY</string>
+    <string name="chart">Chart</string>
+    <string name="global">Global</string>
+    <string name="top_tracks">Top tracks</string>
+    <string name="top_artists">Top artists</string>
+    <string name="your_playlist">Your Playlist</string>
+    <string name="lyrics">Lyrics</string>
+    <string name="all">All</string>
+    <string name="videos">Videos</string>
+    <string name="content">Content</string>
+    <string name="storage">Storage</string>
+    <string name="player_cache">Player Cache</string>
+    <string name="downloaded_cache">Downloaded Cache</string>
+    <string name="thumbnail_cache">Thumbnail Cache</string>
+    <string name="backup">Backup</string>
+    <string name="backup_your_data">Backup Your Data</string>
+    <string name="save_all_your_playlist_data">Save all your playlist data</string>
+    <string name="restore_your_data">Restore Your Data</string>
+    <string name="restore_your_saved_data">Restore your saved data</string>
+    <string name="about_us">About us</string>
+    <string name="version">Version</string>
+    <string name="title">Title</string>
+    <string name="album">Album</string>
+    <string name="youtube_url">YouTube URL</string>
+    <string name="download_url">Download URL</string>
+    <string name="now_playing">Now Playing</string>
+    <string name="queue">Queue</string>
+    <string name="recently">Recently</string>
+    <string name="settings">Settings</string>
+    <string name="now_playing_upper">NOW PLAYING</string>
+    <string name="language">Language</string>
+    <string name="what_do_you_want_to_listen_to">What do you want to listen to?</string>
+    <string name="songs_inArtist">Songs</string>
+    <string name="albums_inArtist">Albums</string>
+    <string name="singles_inArtist">Singles</string>
+    <string name="fans_might_also_like_inArtist">Fans might also like</string>
+    <string name="crash_log">Pure Music crashed. Sorry for this problem.\nSend crash-log to developer</string>
+    <string name="crash">Crash</string>
+    <string name="send">Send</string>
+    <string name="mail_subject">Report Crash</string>
+    <string name="delete_song_from_playlist">Delete this song from playlist</string>
+    <string name="log_in">Log in</string>
+    <string name="log_in_to_YouTube">Log in to YouTube</string>
+    <string name="log_in_to_get_personally_data">Log in to get personally data</string>
+    <string name="login_success">Login success</string>
+    <string name="log_out">Log out from YouTube</string>
+    <string name="logged_in">Logged in</string>
+    <string name="logged_out">Logged out</string>
+    <string name="playlist">Playlist</string>
+    <string name="restart_app">Restart app to apply the change</string>
+    <string name="balance_media_loudness">Balance media loudness</string>
+    <string name="normalize_volume">Normalize Volume</string>
+    <string name="audio">Audio</string>
+    <string name="no_equalizer">Your device doesn\'t have equalizer</string>
+    <string name="open_system_equalizer">Open system equalizer</string>
+    <string name="use_your_system_equalizer">Use your system equalizer</string>
+    <string name="streaming_data_provider_piped">Streaming data provider (Piped)</string>
+    <string name="itag">Itag</string>
+    <string name="mime_type">Mime Type</string>
+    <string name="bitrate">Bitrate</string>
+    <string name="warning">Warning</string>
+    <string name="change_language_warning">Changing language will close your app. Are you sure?</string>
+    <string name="this_link_is_not_supported">This link is not supported</string>
+    <string name="added_to_playlist">Added to playlist</string>
+    <string name="description">Description</string>
+    <string name="playback">Playback</string>
+    <string name="save_playback_state">Save Playback State</string>
+    <string name="save_shuffle_and_repeat_mode">Save shuffle and repeat mode</string>
+    <string name="skip_silent">Skip Silent</string>
+    <string name="skip_no_music_part">Skip no music part</string>
+    <string name="time_out_check_internet_connection_or_change_piped_instance_in_settings">Time out, check internet connection</string>
+    <string name="save_last_played">Save Last Played</string>
+    <string name="save_last_played_track_and_queue">Save last played track and queue</string>
+    <string name="update_available">New update available</string>
+    <string name="update_message">"Version %1$s available\nRelease: %2$s\nChange logs:\n%3$s "</string>
+    <string name="check_for_update">Check for update</string>
+    <string name="last_checked_at">Last checked at %1$s</string>
+    <string name="checking">Checking</string>
+    <string name="sponsorblock_skip_segment">SponsorBlock: Skip %1$s segment</string>
+    <string name="sponsor">Sponsor</string>
+    <string name="self_promotion">Self Promotion</string>
+    <string name="interaction">Interaction</string>
+    <string name="intro">Intro</string>
+    <string name="outro">Outro</string>
+    <string name="preview">Preview</string>
+    <string name="music_off_topic">Music Off-topic</string>
+    <string name="poi_highlight">POI Highlight</string>
+    <string name="filler">Filler</string>
+    <string name="sponsorBlock">SponsorBlock</string>
+    <string name="enable_sponsor_block">Enable SponsorBlock</string>
+    <string name="categories_sponsor_block">Select skip-segment behavior</string>
+    <string name="what_segments_will_be_skipped">What segments will be skipped</string>
+    <string name="save">Save</string>
+    <string name="saved">Saved</string>
+    <string name="sponsor_block_intro">SponsorBlock is a crowd-sourced system for skipping annoying parts of YouTube videos.\nMore information: https://sponsor.ajay.app/\nIn SimpMusic, SponsorBlock is only available when the device is online</string>
+    <string name="skip_sponsor_part_of_video">Skip sponsor part of video</string>
+    <string name="customactivityoncrash_error_activity_error_occurred_explanation">An unexpected error occurred. Sorry for the inconvenience.</string>
+    <string name="customactivityoncrash_error_activity_restart_app">Restart app</string>
+    <string name="customactivityoncrash_error_activity_close_app">Close app</string>
+    <string name="customactivityoncrash_error_activity_error_details">Error details</string>
+    <string name="customactivityoncrash_error_activity_error_details_title">Error details</string>
+    <string name="customactivityoncrash_error_activity_error_details_close">Close</string>
+    <string name="customactivityoncrash_error_activity_error_details_copy">Copy to clipboard</string>
+    <string name="customactivityoncrash_error_activity_error_details_copied">Copied to clipboard</string>
+    <string name="customactivityoncrash_error_activity_error_details_clipboard_label">Error information</string>
+    <string name="no_update">Your version is the newest</string>
+    <string name="sleep_timer">Sleep Timer - %1$s minute(s)</string>
+    <string name="sleep_timer_off">Sleep Timer</string>
+    <string name="sleep_minutes">Countdown time (minutes)</string>
+    <string name="set">Set</string>
+    <string name="sleep_timer_off_done">Stop sleep timer done</string>
+    <string name="sleep_timer_set_error">Please set the correct format time</string>
+    <string name="sleep_timer_warning">Remove sleep timer?</string>
+    <string name="yes">Yes</string>
+    <string name="notification_channel_name" translatable="false">Pure Music Playback Notification</string>
+    <string name="welcome_back">Welcome back,</string>
+    <string name="upload_your_listening_history_to_youtube_music_server_it_will_make_yt_music_recommendation_system_better_working_only_if_logged_in">Upload your listening history to YouTube Music server, it will make YT Music recommendation system better. Working only if logged in</string>
+    <string name="send_back_listening_data_to_google">Send back listening data to Google</string>
+    <string name="videos_inArtist">Videos</string>
+    <string name="your_youtube_playlists">Your YouTube Playlists</string>
+    <string name="no_YouTube_playlists">No YouTube Playlists</string>
+    <string name="track">track(s)</string>
+    <string name="save_to_local_playlist">Save to local playlist</string>
+    <string name="added_local_playlist">Added Local Playlist</string>
+    <string name="sync">Sync to YouTube Music</string>
+    <string name="synced">Synced with YouTube Music</string>
+    <string name="song">Song</string>
+    <string name="radio">Radio</string>
+    <string name="auto_created_by_youtube_music">Auto created by YouTube Music</string>
+    <string name="start_radio">Start radio</string>
+    <string name="saved_to_local_playlist">Saved to local playlist</string>
+    <string name="if_you_want_to_unsync_this_playlist_please_go_to_local_playlist">if you want to unsync this playlist, please go to local playlist</string>
+    <string name="log_in_to_get_YouTube_playlist">Log in to get YouTube Playlist</string>
+    <string name="sync_playlist_warning">Pure Music will create a YouTube Music Playlist automatically. Are you sure?</string>
+    <string name="syncing">Syncing</string>
+    <string name="unsync_playlist_warning">"Unsync this playlist? This playlist will not be removed from YouTube Music "</string>
+    <string name="unsyncing">Unsyncing</string>
+    <string name="added_to_youtube_playlist">Added to YouTube Playlist</string>
+    <string name="removed_from_YouTube_playlist">Removed from YouTube Playlist</string>
+    <string name="update_playlist">Update playlist from YouTube Music</string>
+    <string name="backup_create_success">Backup create success</string>
+    <string name="backup_create_failed">Backup create failed</string>
+    <string name="musixmatch">Musixmatch</string>
+    <string name="main_lyrics_provider">Main Lyrics Provider</string>
+    <string name="log_in_to_Musixmatch">Log in to Musixmatch</string>
+    <string name="only_support_email_and_password_type">Only support email and password type</string>
+    <string name="musixmatch_login_description">Musixmatch Translation API works only with logged-in user. Pure Music used Musixmatch Developer API.</string>
+    <string name="use_musixmatch_translation">Use Musixmatch Translation</string>
+    <string name="use_musixmatch_translation_description">Enable lyrics translation using Musixmatch. Require Musixmatch Login</string>
+    <string name="translation_language">Translation Language</string>
+    <string name="follow_app_language">Follow app language</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="please_enter_your_email_and_password">Please enter your email and password</string>
+    <string name="log_out_from_musixmatch">Log out from Musixmatch</string>
+    <string name="translation_language_message">Type language code (Eg: en) (2 letters). If you want to set same with Pure Music\'s language, please make edit box empty.</string>
+    <string name="invalid_language_code">Invalid language code</string>
+    <string name="lyrics_provider_youtube">Lyrics provided by YouTube</string>
+    <string name="limit_player_cache">Limit Player Cache</string>
+    <string name="unlimited">Unlimited</string>
+    <string name="third_party_libraries">Third party libraries</string>
+    <string name="description_and_licenses">Description and licenses</string>
+    <string name="author">Author</string>
+    <string name="other_app">Other app</string>
+    <string name="database">App database</string>
+    <string name="free_space">Free space</string>
+    <string name="suggest">Suggestion</string>
+    <string name="reload">Reload</string>
+    <string name="added_date">Added date</string>
+    <string name="featured_playlists">Featured Playlists</string>
+    <string name="podcasts" translatable="false">Podcasts</string>
+    <string name="featured_inArtist">Featured on</string>
+    <string name="audio_quality">Audio quality</string>
+    <string name="play_video_for_video_track_instead_of_audio_only">Play video for video track instead of audio only</string>
+    <string name="such_as_music_video_lyrics_video_podcasts_and_more">Such as Music Video, Lyrics Video, Podcasts, and more</string>
+    <string name="video_quality">Video Quality</string>
+    <plurals name="n_song">
+        <item quantity="one">%d song</item>
+        <item quantity="other">%d songs</item>
+    </plurals>
+    <string name="settings_account">Account</string>
+    <string name="play_video_instead_of_audio_warning">This action will delete player cache. Continue?</string>
+    <string name="quality_video">Video Quality</string>
+    <string name="add_to_queue">Add to queue</string>
+    <string name="added_to_queue">Added to queue</string>
+    <string name="new_release">New release</string>
+    <string name="music_video">Music video</string>
+    <string name="your_music_is_always_up_to_date">YOUR MUSIC IS ALWAYS UP-TO-DATE</string>
+    <string name="youtube_account">YouTube Accounts</string>
+    <string name="manage_your_youtube_accounts">Manage your YouTube Accounts</string>
+    <string name="no_account">No account</string>
+    <string name="add_an_account">Add account</string>
+    <string name="signed_in">Signed in</string>
+    <string name="guest">Guest</string>
+    <string name="log_out_warning">Log out from all account?</string>
+    <string name="play_next">Play next</string>
+    <string name="codec">Codec</string>
+    <string name="plays">Play/View Count</string>
+    <string name="like_and_dislike">%1$d like(s), %2$d dislike(s)</string>
+    <string name="published_at">Published at %1$s</string>
+    <string name="less">Less</string>
+    <string name="spotify">Spotify</string>
+    <string name="log_in_to_spotify">Log in to Spotify</string>
+    <string name="intro_login_to_spotify">Log in for Spotify Lyrics, Canvas and more</string>
+    <string name="enable_spotify_lyrics">Enable Spotify Lyrics</string>
+    <string name="spotify_lyrícs_info">More lyrics without translation</string>
+    <string name="enable_canvas">Enable Canvas</string>
+    <string name="canvas_info">Show Spotify Canvas in Pure Music</string>
+    <string name="spotify_lyrics_provider">Lyrics provided by Spotify</string>
+    <string name="offline_mode">Offline mode</string>
+    <string name="added_to_youtube_liked">Added to YouTube Liked</string>
+    <string name="removed_from_youtube_liked">Removed from YouTube Liked</string>
+    <string name="home_limit">Fetch home data limit</string>
+    <string name="no_album">No album</string>
+    <string name="app_widget_description">Player widget</string>
+    <string name="guide_miniplayer_content">Swipe to show skip and close button</string>
+    <string name="guide_suggest_content">Show suggested songs by AI based on your playlist</string>
+    <string name="guide_liked_title">Add to YouTube Liked Playlist</string>
+    <string name="do_more_with_youtube_music">Do more with YouTube Music</string>
+    <string name="do_more_with_youtube_music_explain">Sign in now to personalize the content of the app according to your interests, listen to your playlists, and more…</string>
+    <string name="sign_in">Sign in</string>
+    <string name="sign_out">Sign out</string>
+    <string name="switch_account">Switch account</string>
+
+    <!-- FileName Downloads  -->
+    <string name="settings_file_charset_key" translatable="false">file_rename</string>
+    <string name="settings_file_replacement_character_key" translatable="false">file_replacement_character</string>
+    <string name="default_file_charset_value" translatable="false">@string/charset_most_special_characters_value</string>
+    <string name="charset_letters_and_digits_value" translatable="false">CHARSET_LETTERS_AND_DIGITS</string>
+    <string name="charset_most_special_value" translatable="false">CHARSET_MOST_SPECIAL</string>
+    <string name="charset_most_special_characters_value" translatable="false">[\\n\\r|\\?*&lt;":&gt;/']+</string>
+    <string name="unknown_content">[Unknown]</string>
+    <string name="youtube_restricted_mode_enabled" translatable="false">youtube_restricted_mode_enabled</string>
+    <string name="download_path_video_key" translatable="false">download_path_video</string>
+    <string name="download_path_audio_key" translatable="false">download_path_audio</string>
+    <string name="permission_denied">Action denied by the system</string>
+    <string name="missions_header_finished">Completed</string>
+    <string name="missions_header_pending">Pending</string>
+    <string name="paused">paused</string>
+    <string name="queued">queued</string>
+    <string name="post_processing">post-processing</string>
+    <string name="recovering">recovering</string>
+    <string name="enqueue">Queue</string>
+    <string name="missing_file">File moved or deleted</string>
+    <string name="downloads_maximum_retry" translatable="false">downloads_max_retry</string>
+    <string name="downloads_maximum_retry_default" translatable="false">3</string>
+    <string name="downloads_cross_network" translatable="false">cross_network_downloads</string>
+    <string name="download_failed">Download failed</string>
+    <string name="download_finished">Download completed</string>
+    <string name="download_finished_more">%s downloads completed</string>
+    <string name="generate_unique_name">Generate unique name</string>
+    <string name="overwrite">Overwrite the existing file?</string>
+    <string name="overwrite_unrelated_warning">A file with this name already exists</string>
+    <string name="overwrite_finished_warning">A downloaded file with this name already exists</string>
+    <string name="overwrite_failed">Cannot overwrite the file</string>
+    <string name="download_already_running">There is a download in progress with this name</string>
+    <string name="download_already_pending">There is a pending download with this name</string>
+    <string name="show_error">Show error</string>
+    <string name="error_file_creation">The file can not be created</string>
+    <string name="error_path_creation">The destination folder can not be created</string>
+    <string name="error_permission_denied">Permission denied by the system</string>
+    <string name="error_ssl_exception">Could not establish a secure connection</string>
+    <string name="error_unknown_host">Could not find the server</string>
+    <string name="error_connect_host">Can not connect to the server</string>
+    <string name="error_http_no_content">The server does not send data</string>
+    <string name="error_http_unsupported_range">The server does not accept multi-threaded downloads, retry with @string/msg_threads = 1</string>
+    <string name="error_http_not_found">Not found</string>
+    <string name="error_postprocessing_failed">Post-processing failed</string>
+    <string name="error_postprocessing_stopped">PureMusic was closed while working on the file</string>
+    <string name="error_insufficient_storage">No space left on device</string>
+    <string name="error_progress_lost">Progress lost, because the file was deleted</string>
+    <string name="error_timeout">Connection timeout</string>
+    <string name="error_download_resource_gone">Cannot recover this download</string>
+    <string name="delete_all_downloads">Delete all downloads</string>
+    <string name="confirm_prompt">Deleting all downloads is a permanent action and cannot be undone.</string>
+    <string name="delete_downloaded_files">Delete</string>
+    <string name="deleted_downloads">Downloads are being deleted</string>
+    <string name="stop">Stop</string>
+    <string name="start_downloads">Start downloads</string>
+    <string name="pause_downloads">Pause downloads</string>
+    <string name="no_streams_available_download">No streams available to download</string>
+    <string name="undo">Undo</string>
+    <string name="could_not_setup_download_menu">This video is not available for download.</string>
+    <string name="video">Video</string>
+    <string name="show_info">Show video info</string>
+    <string name="start">Start</string>
+    <string name="pause">Pause</string>
+    <string name="view">Play</string>
+    <string name="msg_error">Error</string>
+    <string name="msg_running">PureMusic Downloading</string>
+    <string name="msg_running_detail">Tap to see details</string>
+    <string name="toast_no_player">No app installed to play this file</string>
+    <string name="something_went_wrong">Something went wrong</string>
+    <string name="remove_from_downloads">Remove from downloads</string>
+    <string name="video_deleted_from_downloads">Video deleted from downloads.</string>
+    <string name="ok">OK</string>
+    <string-array name="resolution_list_values" translatable="false">
+        <item>@string/best_resolution_key</item>
+        <item>1080p60</item>
+        <item>1080p</item>
+        <item>720p60</item>
+        <item>720p</item>
+        <item>480p</item>
+        <item>360p</item>
+        <item>240p</item>
+        <item>144p</item>
+    </string-array>
+    <string-array name="resolution_list_description" translatable="false">
+        <item>@string/best_resolution</item>
+        <item>1080p60</item>
+        <item>1080p</item>
+        <item>720p60</item>
+        <item>720p</item>
+        <item>480p</item>
+        <item>360p</item>
+        <item>240p</item>
+        <item>144p</item>
+    </string-array>
+    <string name="best_resolution">Best resolution</string>
+    <string name="best_resolution_key" translatable="false">best_resolution</string>
+    <string name="video_mp4_key" translatable="false">video_mp4</string>
+    <string name="video_webm_key" translatable="false">video_webm</string>
+    <string name="video_3gp_key" translatable="false">video_3gp</string>
+    <string name="default_video_format_key" translatable="false">default_video_format</string>
+    <string name="default_video_format_value" translatable="false">@string/video_mp4_key</string>
+    <string name="default_audio_format_key" translatable="false">default_audio_format</string>
+    <string name="default_audio_format_value" translatable="false">@string/audio_m4a_key</string>
+    <string name="audio_m4a_key" translatable="false">audio_m4a</string>
+    <string name="audio_webm_key" translatable="false">audio_webm</string>
+    <string name="last_orientation_landscape_key" translatable="false">last_orientation_landscape_key</string>
+    <!-- Limit mobile data usage  -->
+    <string name="limit_mobile_data_usage_key" translatable="false">limit_mobile_data_usage</string>
+    <string name="limit_data_usage_none_key" translatable="false">limit_data_usage_none</string>
+    <string name="show_higher_resolutions_key" translatable="false">show_higher_resolutions</string>
+    <string name="default_resolution_key" translatable="false">default_resolution</string>
+    <string name="default_resolution_value" translatable="false">720p</string>
+    <string name="no_results">No results</string>
+    <string name="storage_permission_title">Storage permission</string>
+    <string name="storage_permission_message">Pure Music cannot access local media because you denied access to device storage.\nIf you change your mind in the future, you can grant the permission in Android Settings.</string>
+    <string name="storage_permission_open_settings">Open Settings</string>
+    <string name="oops_unable_to_download_this_song">Oops! Unable to download this song.</string>
+    <string name="congratulation_successfully_downloaded">Congratulation! Successfully Downloaded</string>
+</resources>

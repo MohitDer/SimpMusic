@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/retry"
+        android:title="@string/retry" />
+
+    <item
+        android:id="@+id/cancel"
+        android:title="@string/cancel" />
+
+    <item
+        android:id="@+id/start"
+        android:title="@string/start" />
+
+    <item
+        android:id="@+id/pause"
+        android:title="@string/pause" />
+
+    <item
+        android:id="@+id/delete"
+        android:title="@string/remove_from_downloads" />
+
+    <item
+        android:id="@+id/menu_item_share"
+        android:title="@string/share" />
+
+    <item
+        android:id="@+id/error_message_view"
+        android:title="@string/show_error" />
+
+</menu>

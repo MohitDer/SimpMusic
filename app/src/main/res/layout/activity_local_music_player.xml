@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@color/black">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <com.google.android.material.appbar.AppBarLayout
+            android:id="@+id/appbar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/black">
+
+            <com.google.android.material.appbar.MaterialToolbar
+                android:id="@+id/default_toolbar"
+                android:layout_width="match_parent"
+                android:layout_height="56dp"
+                android:background="@color/black"
+                android:gravity="center_vertical"
+                app:navigationIcon="@drawable/baseline_arrow_back_ios_24"
+                app:subtitleTextColor="@color/white"
+                app:title="@string/now_playing"
+                app:titleTextAppearance="@style/TextAppearance.Material3.TitleMedium"
+                app:titleTextColor="@color/white" />
+
+        </com.google.android.material.appbar.AppBarLayout>
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@id/appbar"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <FrameLayout
+                    android:id="@+id/frameLayout"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:animateLayoutChanges="true"
+                    android:background="@color/black"
+                    app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+                    <com.github.vkay94.dtpv.DoubleTapPlayerView
+                        android:id="@+id/playerView"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@color/black"
+                        android:focusedByDefault="true"
+                        android:keepScreenOn="true"
+                        app:controller_layout_id="@layout/local_music_player_control_views"
+                        app:hide_on_touch="false"
+                        app:show_buffering="always"
+                        app:show_timeout="0" />
+
+                </FrameLayout>
+
+
+                <RelativeLayout
+                    android:id="@+id/native_ad"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <com.facebook.shimmer.ShimmerFrameLayout
+                        android:id="@+id/shimmer_native_small"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentBottom="true">
+
+                        <include layout="@layout/shimmer_native_small" />
+                    </com.facebook.shimmer.ShimmerFrameLayout>
+
+                    <com.maxrave.simpmusic.ads.nativead.AppNativeAdView
+                        android:id="@+id/template_view_music"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentBottom="true"
+                        app:native_ad_type="@layout/admob_native_ad_small"
+                        tools:visibility="gone" />
+
+                    <include
+                        android:id="@+id/custom_template_music"
+                        layout="@layout/item_custome_native_samll"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentBottom="true"
+                        android:visibility="gone" />
+
+                </RelativeLayout>
+
+            </LinearLayout>
+
+        </ScrollView>
+
+
+    </RelativeLayout>
+
+
+
+
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

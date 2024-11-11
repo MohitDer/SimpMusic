@@ -1,0 +1,53 @@
+plugins {
+    id 'com.android.library'
+    id 'kotlin-android'
+    id 'maven-publish'
+}
+
+apply from: '../dependencies.gradle'
+
+android {
+    compileSdk 34
+    buildToolsVersion = build.buildTools
+
+    defaultConfig {
+        minSdk = build.minSdk
+        targetSdk = build.targetSdk
+
+        vectorDrawables.useSupportLibrary = true
+
+        consumerProguardFiles 'consumer-rules.pro'
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+
+    kotlinOptions {
+        jvmTarget = JavaVersion.VERSION_1_8
+    }
+
+    namespace = "com.github.vkay94.dtpv"
+}
+
+dependencies {
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+    implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk7:$versions.kotlin"
+    implementation "androidx.appcompat:appcompat:$versions.appcompat"
+    implementation "androidx.core:core-ktx:$versions.core_ktx"
+
+    implementation "com.google.android.exoplayer:exoplayer-core:$versions.exoplayer"
+    implementation "com.google.android.exoplayer:exoplayer-ui:$versions.exoplayer"
+    implementation "androidx.constraintlayout:constraintlayout:$versions.constraintlayout"
+    implementation("androidx.media3:media3-exoplayer:1.2.1")
+    implementation("androidx.media3:media3-ui:1.2.1")
+    implementation("androidx.media3:media3-session:1.2.1")
+}

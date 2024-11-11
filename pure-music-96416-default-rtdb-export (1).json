@@ -1,0 +1,101 @@
+{
+  "Ads": {
+    "Banner_Download": {
+      "Ad_Id": "ca-app-pub-3940256099942544/6300978111",
+      "Show": true
+    },
+    "Banner_Home": {
+      "Ad_Id": "ca-app-pub-3940256099942544/6300978111",
+      "Show": true
+    },
+    "Banner_PlayerView": {
+      "Ad_Id": "ca-app-pub-3940256099942544/9214589741",
+      "Show": true
+    },
+    "Banner_Shorts": {
+      "Ad_Id": "ca-app-pub-3940256099942544/6300978111",
+      "Show": true
+    },
+    "Banner_Video": {
+      "Ad_Id": "ca-app-pub-3940256099942544/6300978111",
+      "Show": true
+    },
+    "Interstitial_Albums": {
+      "Ad_Id": "ca-app-pub-3940256099942544/1033173712",
+      "Show": true
+    },
+    "Interstitial_Artists": {
+      "Ad_Id": "ca-app-pub-3940256099942544/1033173712",
+      "Show": true
+    },
+    "Interstitial_Search": {
+      "Ad_Id": "ca-app-pub-3940256099942544/1033173712",
+      "Show": true
+    },
+    "Interstitial_Songs": {
+      "Ad_Id": "ca-app-pub-3940256099942544/1033173712",
+      "Show": true
+    },
+    "Interstitial_Video_Click": {
+      "Ad_Id": "ca-app-pub-3940256099942544/1033173712",
+      "Show": true
+    },
+    "Native_Channel_Video": {
+      "Ad_Id": "ca-app-pub-3940256099942544/2247696110",
+      "Show": true
+    },
+    "Native_Explore": {
+      "Ad_Id": "ca-app-pub-3940256099942544/2247696110",
+      "Show": true
+    },
+    "Native_Feeds": {
+      "Ad_Id": "ca-app-pub-3940256099942544/2247696110",
+      "Show": true
+    },
+    "Native_History": {
+      "Ad_Id": "ca-app-pub-3940256099942544/2247696110",
+      "Show": true
+    },
+    "Native_Home": {
+      "Ad_Id": "ca-app-pub-3940256099942544/2247696110",
+      "Show": true
+    },
+    "Native_Library": {
+      "Ad_Id": "ca-app-pub-3940256099942544/2247696110",
+      "Show": true
+    },
+    "Native_Playlist": {
+      "Ad_Id": "ca-app-pub-3940256099942544/2247696110",
+      "Show": true
+    },
+    "Native_Search": {
+      "Ad_Id": "ca-app-pub-3940256099942544/2247696110",
+      "Show": true
+    },
+    "Native_Trending": {
+      "Ad_Id": "ca-app-pub-3940256099942544/2247696110",
+      "Show": true
+    },
+    "Native_Under_PlayerView": {
+      "Ad_Id": "ca-app-pub-3940256099942544/2247696110",
+      "Show": true
+    },
+    "Native_Watch_Later": {
+      "Ad_Id": "ca-app-pub-3940256099942544/2247696110",
+      "Show": true
+    },
+    "Open_App": {
+      "Ad_Id": "ca-app-pub-3940256099942544/9257395921",
+      "Show": true
+    },
+    "Rewarded_Download": {
+      "Ad_Id": "ca-app-pub-3940256099942544/5224354917",
+      "Show": true
+    },
+    "Update_Dialog": {
+      "isAppLive": true,
+      "newAppPackageName": "com.android..youtube",
+      "versionCode": 1
+    }
+  }
+}

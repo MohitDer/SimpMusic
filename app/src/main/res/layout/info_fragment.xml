@@ -1,0 +1,296 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:id="@+id/topAppBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:background="@android:color/transparent">
+
+        <com.google.android.material.appbar.MaterialToolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:navigationIcon="@drawable/baseline_keyboard_arrow_down_24"
+            app:navigationIconTint="@android:color/white"
+            app:title=""
+            app:titleTextColor="@android:color/white">
+
+        </com.google.android.material.appbar.MaterialToolbar>
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/topAppBar">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginVertical="5sp"
+                android:gravity="center_horizontal"
+                android:text="@string/title"
+                android:textSize="16sp"
+                android:textStyle="bold">
+
+            </TextView>
+
+            <TextView
+                android:id="@+id/title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginVertical="10sp"
+                android:gravity="center_horizontal"
+                android:paddingHorizontal="16sp"
+                android:text=""
+                android:textSize="16sp"
+                android:textStyle="normal" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginVertical="5sp"
+                android:gravity="center_horizontal"
+                android:text="@string/artists"
+                android:textSize="16sp"
+                android:textStyle="bold">
+
+            </TextView>
+
+            <TextView
+                android:id="@+id/artists_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginVertical="10sp"
+                android:gravity="center_horizontal"
+                android:paddingHorizontal="16sp"
+                android:text=""
+                android:textSize="16sp"
+                android:textStyle="normal" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginVertical="5sp"
+                android:gravity="center_horizontal"
+                android:text="@string/album"
+                android:textSize="16sp"
+                android:textStyle="bold">
+
+            </TextView>
+
+            <TextView
+                android:id="@+id/album_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginVertical="10sp"
+                android:gravity="center_horizontal"
+                android:paddingHorizontal="16sp"
+                android:text=""
+                android:textSize="16sp"
+                android:textStyle="normal" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginVertical="5sp"
+                android:gravity="center_horizontal"
+                android:text="@string/itag"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:visibility="gone">
+
+            </TextView>
+
+            <TextView
+                android:id="@+id/itag"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginVertical="10sp"
+                android:gravity="center_horizontal"
+                android:paddingHorizontal="16sp"
+                android:text=""
+                android:textSize="16sp"
+                android:textStyle="normal"
+                android:visibility="gone" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginVertical="5sp"
+                android:gravity="center_horizontal"
+                android:text="@string/mime_type"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:visibility="gone">
+
+            </TextView>
+
+            <TextView
+                android:id="@+id/mimeType"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginVertical="10sp"
+                android:gravity="center_horizontal"
+                android:paddingHorizontal="16sp"
+                android:text=""
+                android:textSize="16sp"
+                android:textStyle="normal"
+                android:visibility="gone" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginVertical="5sp"
+                android:gravity="center_horizontal"
+                android:text="@string/codec"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:visibility="gone">
+
+            </TextView>
+
+            <TextView
+                android:id="@+id/codec"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginVertical="10sp"
+                android:gravity="center_horizontal"
+                android:paddingHorizontal="16sp"
+                android:text=""
+                android:textSize="16sp"
+                android:textStyle="normal"
+                android:visibility="gone" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginVertical="5sp"
+                android:gravity="center_horizontal"
+                android:text="@string/bitrate"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:visibility="gone">
+
+            </TextView>
+
+            <TextView
+                android:id="@+id/bitrate"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginVertical="10sp"
+                android:gravity="center_horizontal"
+                android:paddingHorizontal="16sp"
+                android:text=""
+                android:textSize="16sp"
+                android:textStyle="normal"
+                android:visibility="gone" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginVertical="5sp"
+                android:gravity="center_horizontal"
+                android:text="@string/plays"
+                android:textSize="16sp"
+                android:textStyle="bold">
+
+            </TextView>
+
+            <TextView
+                android:id="@+id/plays"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginVertical="10sp"
+                android:gravity="center_horizontal"
+                android:paddingHorizontal="16sp"
+                android:text=""
+                android:textSize="16sp"
+                android:textStyle="normal" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginVertical="5sp"
+                android:gravity="center_horizontal"
+                android:text="@string/like"
+                android:textSize="16sp"
+                android:textStyle="bold">
+
+            </TextView>
+
+            <TextView
+                android:id="@+id/like"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginVertical="10sp"
+                android:gravity="center_horizontal"
+                android:paddingHorizontal="16sp"
+                android:text=""
+                android:textSize="16sp"
+                android:textStyle="normal" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginVertical="5sp"
+                android:gravity="center_horizontal"
+                android:text="@string/description"
+                android:textSize="16sp"
+                android:textStyle="bold">
+
+            </TextView>
+
+            <TextView
+                android:id="@+id/description"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginVertical="10sp"
+                android:autoLink="web"
+                android:gravity="center_horizontal"
+                android:paddingHorizontal="16sp"
+                android:text=""
+                android:textColorLink="@android:color/white"
+                android:textSize="16sp"
+                android:textStyle="normal" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginVertical="5sp"
+                android:gravity="center_horizontal"
+                android:text="@string/youtube_url"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:visibility="gone">
+
+            </TextView>
+
+            <TextView
+                android:id="@+id/youtube_url"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginVertical="10sp"
+                android:autoLink="web"
+                android:gravity="center_horizontal"
+                android:paddingHorizontal="16sp"
+                android:text=""
+                android:textColorLink="@android:color/white"
+                android:textSize="16sp"
+                android:textStyle="normal"
+                android:visibility="gone" />
+
+        </LinearLayout>
+
+    </androidx.core.widget.NestedScrollView>
+
+</RelativeLayout>

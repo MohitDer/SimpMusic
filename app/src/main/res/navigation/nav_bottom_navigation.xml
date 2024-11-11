@@ -1,0 +1,259 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_bottom_navigation"
+    app:startDestination="@id/bottom_navigation_item_home">
+
+    <fragment
+        android:id="@+id/bottom_navigation_item_search"
+        android:name="com.maxrave.simpmusic.ui.fragment.SearchFragment"
+        android:label="fragment_search"
+        tools:layout="@layout/fragment_search">
+        <action
+            android:id="@+id/action_bottom_navigation_item_search_to_artistFragment"
+            app:destination="@id/artistFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/bottom_navigation_item_library"
+        android:name="com.maxrave.simpmusic.ui.fragment.library.LibraryFragment"
+        android:label="fragment_library"
+        tools:layout="@layout/fragment_library">
+        <action
+            android:id="@+id/action_bottom_navigation_item_library_to_favoriteFragment"
+            app:destination="@id/favoriteFragment" />
+        <action
+            android:id="@+id/action_bottom_navigation_item_library_to_followedFragment"
+            app:destination="@id/followedFragment" />
+        <action
+            android:id="@+id/action_bottom_navigation_item_library_to_mostPlayedFragment"
+            app:destination="@id/mostPlayedFragment" />
+        <action
+            android:id="@+id/action_bottom_navigation_item_library_to_downloadedFragment"
+            app:destination="@id/downloadedFragment" />
+        <action
+            android:id="@+id/action_bottom_navigation_item_library_to_localPlaylistFragment"
+            app:destination="@id/localPlaylistFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/bottom_navigation_item_home"
+        android:name="com.maxrave.simpmusic.ui.fragment.home.HomeFragment"
+        android:label="fragment_home"
+        tools:layout="@layout/fragment_home">
+        <action
+            android:id="@+id/action_bottom_navigation_item_home_to_recentlySongsFragment"
+            app:destination="@id/recentlySongsFragment" />
+        <action
+            android:id="@+id/action_bottom_navigation_item_home_to_settingsFragment"
+            app:destination="@id/mainSettingsFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/artistFragment"
+        android:name="com.maxrave.simpmusic.ui.fragment.other.ArtistFragment"
+        android:label="ArtistFragment" />
+    <action
+        android:id="@+id/action_global_artistFragment"
+        app:destination="@id/artistFragment" />
+    <fragment
+        android:id="@+id/albumFragment"
+        android:name="com.maxrave.simpmusic.ui.fragment.other.AlbumFragment"
+        android:label="AlbumFragment" />
+    <action
+        android:id="@+id/action_global_albumFragment"
+        app:destination="@id/albumFragment" />
+    <fragment
+        android:id="@+id/playlistFragment"
+        android:name="com.maxrave.simpmusic.ui.fragment.other.PlaylistFragment"
+        android:label="PlaylistFragment" />
+    <action
+        android:id="@+id/action_global_playlistFragment"
+        app:destination="@id/playlistFragment" />
+
+    <fragment
+        android:id="@+id/moodFragment"
+        android:name="com.maxrave.simpmusic.ui.fragment.home.MoodFragment"
+        android:label="MoodFragment" />
+    <action
+        android:id="@+id/action_global_moodFragment"
+        app:destination="@id/moodFragment" />
+    <fragment
+        android:id="@+id/nowPlayingFragment"
+        android:name="com.maxrave.simpmusic.ui.fragment.player.NowPlayingFragment"
+        android:label="NowPlayingFragment" />
+    <action
+        android:id="@+id/action_global_nowPlayingFragment"
+        app:destination="@id/nowPlayingFragment"
+        app:enterAnim="@anim/bottom_to_top"
+        app:exitAnim="@anim/top_to_bottom"
+        app:popExitAnim="@anim/top_to_bottom" />
+    <dialog
+        android:id="@+id/queueFragment"
+        android:name="com.maxrave.simpmusic.ui.fragment.player.QueueFragment"
+        android:label="QueueFragment" />
+    <fragment
+        android:id="@+id/favoriteFragment"
+        android:name="com.maxrave.simpmusic.ui.fragment.library.FavoriteFragment"
+        android:label="fragment_favorite"
+        tools:layout="@layout/fragment_favorite" />
+    <fragment
+        android:id="@+id/followedFragment"
+        android:name="com.maxrave.simpmusic.ui.fragment.library.FollowedFragment"
+        android:label="fragment_followed"
+        tools:layout="@layout/fragment_followed" />
+    <fragment
+        android:id="@+id/mostPlayedFragment"
+        android:name="com.maxrave.simpmusic.ui.fragment.library.MostPlayedFragment"
+        android:label="MostPlayedFragment" />
+    <fragment
+        android:id="@+id/recentlySongsFragment"
+        android:name="com.maxrave.simpmusic.ui.fragment.home.RecentlySongsFragment"
+        android:label="fragment_recently_songs"
+        tools:layout="@layout/fragment_recently_songs" />
+    <fragment
+        android:id="@+id/downloadedFragment"
+        android:name="com.maxrave.simpmusic.ui.fragment.library.DownloadedFragment"
+        android:label="fragment_downloaded"
+        tools:layout="@layout/fragment_downloaded" />
+    <fragment
+        android:id="@+id/localPlaylistFragment"
+        android:name="com.maxrave.simpmusic.ui.fragment.other.LocalPlaylistFragment"
+        android:label="LocalPlaylistFragment" />
+    <fragment
+        android:id="@+id/mainSettingsFragment"
+        android:name="com.maxrave.simpmusic.ui.fragment.settings.MainSettingsFragment"
+        android:label="MainSettingsFragment">
+        <action
+            android:id="@+id/action_mainSettingsFragment_to_contentSettingsFragment"
+            app:destination="@id/contentSettingsFragment" />
+        <action
+            android:id="@+id/action_mainSettingsFragment_to_audioSettingsFragment"
+            app:destination="@id/audioSettingsFragment" />
+        <action
+            android:id="@+id/action_mainSettingsFragment_to_playbackSettingsFragment"
+            app:destination="@id/playbackSettingsFragment" />
+        <action
+            android:id="@+id/action_mainSettingsFragment_to_lyricsSettingsFragment"
+            app:destination="@id/lyricsSettingsFragment" />
+        <action
+            android:id="@+id/action_mainSettingsFragment_to_spotifySettingsFragment"
+            app:destination="@id/spotifySettingsFragment" />
+        <action
+            android:id="@+id/action_mainSettingsFragment_to_storageSettingsFragment"
+            app:destination="@id/storageSettingsFragment" />
+        <action
+            android:id="@+id/action_mainSettingsFragment_to_backupSettingsFragment"
+            app:destination="@id/backupSettingsFragment" />
+        <action
+            android:id="@+id/action_mainSettingsFragment_to_aboutSettingsFragment"
+            app:destination="@id/aboutSettingsFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/contentSettingsFragment"
+        android:name="com.maxrave.simpmusic.ui.fragment.settings.ContentSettingsFragment"
+        android:label="ContentSettingsFragment" />
+    <fragment
+        android:id="@+id/audioSettingsFragment"
+        android:name="com.maxrave.simpmusic.ui.fragment.settings.AudioSettingsFragment"
+        android:label="AudioSettingsFragment" />
+    <fragment
+        android:id="@+id/playbackSettingsFragment"
+        android:name="com.maxrave.simpmusic.ui.fragment.settings.PlaybackSettingsFragment"
+        android:label="PlaybackSettingsFragment" />
+    <fragment
+        android:id="@+id/lyricsSettingsFragment"
+        android:name="com.maxrave.simpmusic.ui.fragment.settings.LyricsSettingsFragment"
+        android:label="LyricsSettingsFragment" />
+    <fragment
+        android:id="@+id/spotifySettingsFragment"
+        android:name="com.maxrave.simpmusic.ui.fragment.settings.SpotifySettingsFragment"
+        android:label="SpotifySettingsFragment" />
+    <fragment
+        android:id="@+id/storageSettingsFragment"
+        android:name="com.maxrave.simpmusic.ui.fragment.settings.StorageSettingsFragment"
+        android:label="StorageSettingsFragment" />
+    <fragment
+        android:id="@+id/backupSettingsFragment"
+        android:name="com.maxrave.simpmusic.ui.fragment.settings.BackupSettingsFragment"
+        android:label="BackupSettingsFragment" />
+    <fragment
+        android:id="@+id/aboutSettingsFragment"
+        android:name="com.maxrave.simpmusic.ui.fragment.settings.AboutSettingsFragment"
+        android:label="AboutSettingsFragment" />
+    <dialog
+        android:id="@+id/infoFragment"
+        android:name="com.maxrave.simpmusic.ui.fragment.player.InfoFragment"
+        android:label="InfoFragment" />
+    <action
+        android:id="@+id/action_global_bottom_navigation_item_home"
+        app:destination="@id/bottom_navigation_item_home"
+        app:enterAnim="@anim/nav_default_enter_anim"
+        app:exitAnim="@anim/nav_default_exit_anim"
+        app:popEnterAnim="@anim/nav_default_pop_enter_anim"
+        app:popExitAnim="@anim/nav_default_pop_exit_anim" />
+    <action
+        android:id="@+id/action_global_bottom_navigation_item_library"
+        app:destination="@id/bottom_navigation_item_library"
+        app:enterAnim="@anim/nav_default_enter_anim"
+        app:exitAnim="@anim/nav_default_exit_anim"
+        app:popEnterAnim="@anim/nav_default_pop_enter_anim"
+        app:popExitAnim="@anim/nav_default_pop_exit_anim" />
+    <action
+        android:id="@+id/action_global_bottom_navigation_item_search"
+        app:destination="@id/bottom_navigation_item_search"
+        app:enterAnim="@anim/nav_default_enter_anim"
+        app:exitAnim="@anim/nav_default_exit_anim"
+        app:popEnterAnim="@anim/nav_default_pop_enter_anim"
+        app:popExitAnim="@anim/nav_default_pop_exit_anim" />
+    <fragment
+        android:id="@+id/logInFragment"
+        android:name="com.maxrave.simpmusic.ui.fragment.login.LogInFragment"
+        android:label="fragment_log_in"
+        tools:layout="@layout/fragment_log_in" />
+    <action
+        android:id="@+id/action_global_logInFragment"
+        app:destination="@id/logInFragment"
+        app:popUpTo="@id/mainSettingsFragment" />
+    <fragment
+        android:id="@+id/musixmatchFragment"
+        android:name="com.maxrave.simpmusic.ui.fragment.login.MusixmatchFragment"
+        android:label="MusixmatchFragment" />
+    <action
+        android:id="@+id/action_global_musixmatchFragment"
+        app:destination="@id/musixmatchFragment" />
+    <action
+        android:id="@+id/action_global_infoFragment"
+        app:destination="@id/infoFragment" />
+    <action
+        android:id="@+id/action_global_queueFragment"
+        app:destination="@id/queueFragment" />
+    <fragment
+        android:id="@+id/moreAlbumsFragment"
+        android:name="com.maxrave.simpmusic.ui.fragment.other.MoreAlbumsFragment"
+        android:label="fragment_more_albums"
+        tools:layout="@layout/fragment_more_albums" />
+    <action
+        android:id="@+id/action_global_moreAlbumsFragment"
+        app:destination="@id/moreAlbumsFragment" />
+    <fragment
+        android:id="@+id/podcastFragment"
+        android:name="com.maxrave.simpmusic.ui.fragment.other.PodcastFragment"
+        android:label="PodcastFragment" />
+    <action
+        android:id="@+id/action_global_podcastFragment"
+        app:destination="@id/podcastFragment" />
+    <fragment
+        android:id="@+id/fullscreenFragment"
+        android:name="com.maxrave.simpmusic.ui.fragment.player.FullscreenFragment"
+        android:label="FullscreenFragment" />
+    <action
+        android:id="@+id/action_global_fullscreenFragment"
+        app:destination="@id/fullscreenFragment" />
+    <fragment
+        android:id="@+id/spotifyLogInFragment"
+        android:name="com.maxrave.simpmusic.ui.fragment.login.SpotifyLogInFragment"
+        android:label="SpotifyLogInFragment" />
+    <action
+        android:id="@+id/action_global_spotifyLogInFragment"
+        app:destination="@id/spotifyLogInFragment" />
+
+</navigation>

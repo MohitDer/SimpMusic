@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "184995380550",
+    "firebase_url": "https://pure-music-96416-default-rtdb.firebaseio.com",
+    "project_id": "pure-music-96416",
+    "storage_bucket": "pure-music-96416.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:184995380550:android:c902b641c550a7cbc83947",
+        "android_client_info": {
+          "package_name": "com.musicdownloader.musicplayer"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCCUM4Dn4JH-Z2FDALJtj6RXLWmb5zbV1g"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

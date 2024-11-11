@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/start_downloads"
+        android:icon="@drawable/baseline_play_arrow_24"
+        android:iconTint="@color/white"
+        android:title="@string/start_downloads"
+        android:visible="false"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/pause_downloads"
+        android:icon="@drawable/baseline_pause_24"
+        android:iconTint="@color/white"
+        android:title="@string/pause_downloads"
+        android:visible="false"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/clear_list"
+        android:icon="@drawable/baseline_delete_24"
+        android:iconTint="@color/white"
+        android:title="@string/delete_all_downloads"
+        android:visible="false"
+        app:showAsAction="ifRoom" />
+</menu>
